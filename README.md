@@ -85,3 +85,5 @@ Go through the issue tabs for some other repository and try to find issues label
 - **How to sign up**: [Hacktoberfest Website](https://hacktoberfest.digitalocean.com)
 - **Notes**: All PRs count in all public repositories unless the repo has been marked spam, or the PR is marked as spam or invalid.
 ---
+
+- You can find more such events at [EVENTS.md](https://github.com/1337w0rm/BVEC-Hacktoberfest-2020/blob/master/EVENTS.md)
