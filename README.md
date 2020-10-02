@@ -72,3 +72,16 @@ Try to do this on your own on some other public repository
 
 Go through the issue tabs for some other repository and try to find issues labelled as `good first issues` or `hactoberfest`. If possible try to solve them and create your fourth PR/Pull Request.
 
+## Swags 
+
+---
+
+
+
+### The Original - **DigitalOcean, Intel, and Dev**
+
+- **Swag**: T-shirt, stickers
+- **Requirements**: 4 pull requests in any repository
+- **How to sign up**: [Hacktoberfest Website](https://hacktoberfest.digitalocean.com)
+- **Notes**: All PRs count in all public repositories unless the repo has been marked spam, or the PR is marked as spam or invalid.
+---
