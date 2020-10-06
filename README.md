@@ -26,31 +26,74 @@ Register for Hacktoberfest and come back here.
 
 If you're not familiar with GIT try to learn the basics and then continue. 
 
-## How to create a Pull Request
+# How to create a Pull Request
 
-* Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
-* Clone your fork down to your local machine
+## Fork this repository
 
-```markdown
-git clone https://github.com/your-username/hacktoberfest.git
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+## Clone the repository
+
+<img align="right" width="300" src="https://raw.githubusercontent.com/nisnym/first-contributions/master/assets/clone.png" alt="clone this repository" />
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the clone button and then click the *copy to clipboard* icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied"
+```
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+
+<img align="right" width="300" src="https://github.com/nisnym/first-contributions/raw/master/assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+
+For example:
+```
+git clone https://github.com/<Your Username here>/BVEC-Hacktoberfest-2020.git
+```
+Replace <Your username here>  with your GitHub username. Here you're copying the contents of the BVEC-Hacktoberfest-2020 repository from GitHub to your computer.
+
+## Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd BVEC-Hacktoberfest-2020
+```
+Now create a branch using the `git checkout` command:
+```
+git checkout -b <add-your-new-branch-name>
 ```
 
-* Create a branch
-
-```markdown
-git checkout -b branch-name
+For example:
 ```
+git checkout -b Aditya
+```
+(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
 
-* Make your changes (choose from any task below)
-* Commit and push
+## Make necessary changes and commit those changes
 
+Add those changes to the branch you just created using the git add command:
 ```markdown
 git add .
-git commit -m 'Commit message'
-git push origin branch-name
 ```
 
-* Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+Now commit those changes using the `git commit` command:
+```
+git commit -m "Your custom Message"
+```
+
+## Push changes to GitHub
+
+Push your changes using the command `git push`:
+```
+git push origin <add-your-branch-name>
+```
+replacing `<add-your-branch-name>` with the name of the branch you created earlier in my case it's `Aditya` so the command will be 
+`git push origin aditya`.
+
+* Now goto Github website and open your forked repo. You'll se a `Create a new pull request` buttton. Click on it and follow the instructions to complete your pull request.
 * Wait for your PR review and merge approval!
 
 ## First PR/Pull Request)
