@@ -27,4 +27,4 @@ def day_occur_time(year):
 		print(days[i], L[i]) 
 
 year = 2019
-day_occur_time(year) 
+day_occur_time(year)
